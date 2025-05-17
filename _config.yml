@@ -45,7 +45,7 @@ linkedin_username: kdizzed
 
 # Theme specifications
 theme: minima
-minima:
+ghostly:
   date_format: "%B %-d, %Y" # Corresponds to e.g. January 1, 2020
   # see http://shopify.github.io/liquid/filters/date/ for customization
   backbutton: <a href="javascript:history.back()">{&xlarr; Back}</a>
