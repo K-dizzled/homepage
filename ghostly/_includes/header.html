@@ -1,0 +1,31 @@
+<header class="site-header" role="banner">
+    <h1> {{site.title}} </h1>
+    <div>
+        {%- assign socials = site.socialorder | split: " " -%}
+        {%- for social in socials-%}
+            {%- case social -%}
+                {%- when "email" -%}
+                    <a class="media" href="mailto:{{ site.email }}">Email</a>
+                {%- when "twitter" -%}
+                    <a class="media" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+                {%- when "github" -%}
+                    <a class="media" href="https://github.com/{{ site.github_username }}">GitHub</a>
+                {%- when "researchgate" -%}
+                    <a class="media" href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">ResearchGate</a>
+                {%- when "googlescholar" -%}
+                    <a class="media" href="https://scholar.google.com/citations?user={{ site.googlescholar_id }}">Google Scholar</a>
+                {%- when "orcid" -%}
+                    <a class="media" href="https://orcid.org/{{ site.orcid_id }}">Orcid</a>
+                {%- when "linkedin" -%}
+                    <a class="media" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+                {%- when "cv" -%}
+                    <a class="media" href="/assets/cv.pdf">cv</a>
+            {%- endcase -%}
+            {% if forloop.last == true %}
+            <br/>
+            {%- else -%}
+               <span class="separator">{{ site.ghostly.itemseparator }}</span>
+            {%- endif -%}
+        {%- endfor -%}
+    </div>
+</header>
