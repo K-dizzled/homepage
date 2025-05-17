@@ -8,8 +8,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.3"
-#gem "minima", "~> 2.5" #if using Minima as a Gem-based theme
-gem "ghostly", path: './ghostly'  
+gem "minima", "~> 2.5" #if using Minima as a Gem-based theme
+# gem "ghostly", path: './ghostly'  
 gem 'html-proofer' #for link checking 
 
 # This specifies a local path for ghostly, so you can edit it
@@ -37,3 +37,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
+group :jekyll_plugins do
+  gem "bundler", "~> 2.0"
+  gem "rake", "~> 12.0"
+end
