@@ -44,8 +44,8 @@ orcid_id: 0009-0004-3185-9368
 linkedin_username: kdizzed
 
 # Theme specifications
-theme: ghostly
-ghostly:
+theme: minima
+minima:
   date_format: "%B %-d, %Y" # Corresponds to e.g. January 1, 2020
   # see http://shopify.github.io/liquid/filters/date/ for customization
   backbutton: <a href="javascript:history.back()">{&xlarr; Back}</a>
@@ -58,7 +58,7 @@ ghostly:
 
 # Enable Google Analytics
 # See https://support.google.com/analytics/answer/1008080?hl=en to find your ID
-google_analytics: UA-361324-2
+# google_analytics: UA-361324-2
 
 # Location the site is to be built. The source can't be inside the destination
 destination: ../site  #Build into a directory at the same level as the source
@@ -81,10 +81,10 @@ plugins:
   # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md
 
 # Exclude from processing
-exclude:
-   - minima
-   - ghostly/skeleton
-   - Ghostly-make-skeleton.sh #bash shell I use for copying files for skeleton
+# exclude:
+  #  - minima
+  #  - ghostly/skeleton
+  #  - Ghostly-make-skeleton.sh #bash shell I use for copying files for skeleton
 
 # This paragraph is reproduced from Jekyll's default Minima theme
 ##################################################################
