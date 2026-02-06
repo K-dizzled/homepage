@@ -8,6 +8,7 @@ title: Home
 
 1. A. Kozyrev, G. Solovev, N. Khramov, A. Podkopaev (2024). CoqPilot, a plugin for LLM-based generation of proofs. _ASE'24_, [doi <nobr>10.1145/3691620.3695357</nobr>](https://doi.org/10.1145/3691620.3695357) [pdf](./papers/kozyrev2024coqpilot.pdf) [video (5 min)](https://www.youtube.com/watch?v=oB1Lx-So9Lo) 
 1. A. Kozyrev, N. Khramov, G. Solovev, A. Podkopaev (2025). RocqStar: Leveraging Similarity-driven Retrieval and Agentic Systems for Rocq generation. _AAMAS'26_, [doi incoming] [arXiv](https://arxiv.org/abs/2505.22846) [preprint pdf](./papers/rocqstar2025preprint.pdf)
+1. A. Kozyrev, N. Khramov, D. Lochmelis, V. Morelli, G. Solovev, A. Podkopaev (2026). RocqSmith: Can Automatic Optimization Forge Better Proof Agents?, [arXiv](https://arxiv.org/abs/2602.05762) [preprint pdf](./papers/kozyrev2026rocqsmith.pdf)
 {: .reverse}
 
 ## Talks
