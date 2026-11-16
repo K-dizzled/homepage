@@ -6,7 +6,7 @@
 <body>
     {%- include header.html -%}
     <main>
-        <div class="content fade-in">
+        <div class="content">
              {{ content }}
              {%- if site.commentbox_id -%}  
                     {%- if page.commentbox -%}
@@ -18,6 +18,17 @@
     {%- include footer.html -%}
     
     {%- include linkwrapping.html -%}
+
+    <script>
+        // Email links reveal + copy the address instead of opening a mail client
+        $('a[href^="mailto:"]').on('click', function (e) {
+            e.preventDefault();
+            var a = $(this), email = this.href.slice(7);
+            if (navigator.clipboard) navigator.clipboard.writeText(email);
+            a.text('{' + email + ' · copied}');
+            setTimeout(function () { a.text('{' + email + '}'); }, 1500);
+        });
+    </script>
     
     <!--  Lightbox Javascript -->
     {%- if page.lightbox -%}
