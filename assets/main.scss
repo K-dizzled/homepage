@@ -3,3 +3,9 @@
 ---
 
 @import "ghostly";
+
+// Experience: phase titles + short bulleted facts
+ul.xp, ul.xp ul {text-align: left}
+ul.xp ul {padding: 0.6ex 0 0 1em}
+ul.xp ul ul {list-style: disc outside; padding: 0.3ex 0 0.4ex 1.4em; font-size: medium; color: #333}
+ul.xp ul ul li {padding-bottom: 0.2ex; color: #333}
