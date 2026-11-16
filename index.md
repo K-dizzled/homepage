@@ -14,7 +14,7 @@ title: Home
 
 ## Professional Experience
 {: .centered }
-*   _December 2022 – present_: **Research Scientist / Software Developer, JetBrains Research**, Germany
+*   _December 2022 – present_: Research Scientist / Software Developer, JetBrains Research, Germany
     * **Self-improving coding agents**
         * Automatic SKILL optimization for Claude Code and [Junie](https://www.jetbrains.com/junie/)
         * **Up to +22pp** score; live issues closed **2× faster** at lower cost
@@ -26,11 +26,11 @@ title: Home
     * **AI evaluation**
         * Evaluated LLM pipelines across JetBrains products
         * Designed the evals for TeamCity AI features from scratch
-    * **Formal methods + AI**
+    * **Artificial Intelligence in Formal methods**
         * Led the team behind [CoqPilot](https://github.com/JetBrains-Research/coqpilot) (**130+ ★**, ASE'24) and RocqStar (AAMAS'26)
         * Post-training for Rocq code completion: contrastive embeddings (CodeBERT, InfoNCE) for RAG, **up to +28%**
         * RocqStar adopted by an external research lab
-*   _January 2020 – May 2022_: **iOS Software Developer**, Russia
+*   _January 2020 – May 2022_: iOS Software Developer, Russia
 {: .tight .xp}
 
 ## Talks
